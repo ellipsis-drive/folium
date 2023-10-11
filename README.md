@@ -7,7 +7,9 @@ You can install this package using
 `pip install foliumEllipsis`
 
 
-## Example raster layer
+## Examples
+
+### Raster layer
 
 To add a raster layer you can use the following code:
 ```
@@ -21,7 +23,7 @@ ED_layer = addEllipsisRasterLayer(pathId)
 ED_layer.add_to(map)
 map
 ```
-## Example vector layer
+### Vector layer
 To add a vector layer you can use the following code
 
 ```
