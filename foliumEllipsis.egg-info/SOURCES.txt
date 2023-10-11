@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+foliumEllipsis/__init__.py
+foliumEllipsis/util.py
+foliumEllipsis.egg-info/PKG-INFO
+foliumEllipsis.egg-info/SOURCES.txt
+foliumEllipsis.egg-info/dependency_links.txt
+foliumEllipsis.egg-info/requires.txt
+foliumEllipsis.egg-info/top_level.txt

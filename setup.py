@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="folium-ellipsis",
+    name="foliumEllipsis",
     version="0.0.0",
     author="Daniel van der Maas",
     author_email="daniel@ellipsis-drive.com",
