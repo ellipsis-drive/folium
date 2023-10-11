@@ -7,7 +7,7 @@ You can install this package using
 `pip install foliumEllipsis`
 
 
-##examples
+## Examples
 
 To add a raster layer you can use the following code:
 ```
@@ -54,7 +54,7 @@ map
 ```
 
 
-##documentation
+## Documentation
 
 
 #### Raster layer options
