@@ -1,22 +1,27 @@
 import folium as f
 
-from folium_vectortilelayer import VectorTileLayer
+#from folium_vectortilelayer import VectorTileLayer
+from folium_vectorgrid import VectorGridProtobuf
+
 import json
 from foliumEllipsis.util import get
 from foliumEllipsis.util import  createStyleFunction
 from foliumEllipsis.util import validUuid
 from foliumEllipsis.util import validString
 
+#python3 setup.py sdist bdist_wheel
+#twine upload --repository pypi dist/*
 
-__version__ = '0.0.0'
+__version__ = '0.0.5'
 apiUrl = 'https://api.ellipsis-drive.com/v3'
 
 
-def addEllipsisVectorLayer( pathId, timestampId=None, style=None, zoom = None, token = None):
+def addEllipsisVectorLayer( pathId, layerName = 'layer', timestampId=None, style=None, zoom = None, token = None):
     pathId = validUuid('pathId', pathId, True )
     token = validString('token', token, False)
 
     metadata_url = apiUrl + '/path/' + pathId
+
     metadata = get(metadata_url, token)
 
     if type(timestampId) == type(None) or type(style) == type(None) or type(zoom) == type(None):
@@ -80,7 +85,7 @@ def addEllipsisVectorLayer( pathId, timestampId=None, style=None, zoom = None, t
         "layer": ''' + functionString +  '''
       }
     }'''
-    vc = VectorTileLayer(url, "layer", options)
+    vc = VectorGridProtobuf(url, layerName, options)
     return vc
 
 

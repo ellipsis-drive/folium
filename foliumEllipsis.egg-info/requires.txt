@@ -1,5 +1,2 @@
 folium
-folium_vectortilelayer
-json
-requests
-uuid
+folium-vectorgrid

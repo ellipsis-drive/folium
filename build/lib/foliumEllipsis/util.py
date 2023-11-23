@@ -18,9 +18,16 @@ def validString(name, value, required):
     return(value)
 
 def get(url, token):
+
     if type(token) != type(None):
-        url = url + '&token=' + token
-    r = requests.get(url)
+        if not '?' in url:
+            url = url + '?token=' + token
+        else:
+            url = url + '&token=' + token
+    if type(token) == type(None):
+        r = requests.get(url)
+    else:
+        r = requests.get(url,  headers = {"Authorization": 'Bearer ' + token})
     if r.status_code != 200:
         raise ValueError(r.text)
 
@@ -101,6 +108,11 @@ def createStyleFunction(style, styleSheet):
             }'''
     if style['method'] == 'rules':
         rules = style['parameters']['rules']
+
+        for i in range(len(rules)):
+            if rules[i]['operator'] == '=':
+                rules[i]['operator'] = '==='
+
         ifs = ['if( f.' + x['property'] + x['operator'] + str(x['value']) + ')' for x in rules]
 
         styles = ['''{

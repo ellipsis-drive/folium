@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c343c25-7bb9-43ea-b848-bf6d4e986c7f" name="Changes" comment="" />
+    <list default="true" id="8c343c25-7bb9-43ea-b848-bf6d4e986c7f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/folium-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/folium-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/foliumEllipsis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/foliumEllipsis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/lib/foliumEllipsis/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/build/lib/foliumEllipsis/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/foliumEllipsis-0.0.0-py3-none-any.whl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/foliumEllipsis-0.0.0.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/folium.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/folium.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foliumEllipsis.egg-info/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/foliumEllipsis.egg-info/PKG-INFO" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foliumEllipsis.egg-info/requires.txt" beforeDir="false" afterPath="$PROJECT_DIR$/foliumEllipsis.egg-info/requires.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foliumEllipsis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/foliumEllipsis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foliumEllipsis/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/foliumEllipsis/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/setup.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/daniel/Ellipsis/folium"
+    "last_opened_file_path": "/home/daniel/Ellipsis/folium",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RunManager">

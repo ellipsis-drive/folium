@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="foliumEllipsis",
-    version="0.0.0",
+    version="0.0.5",
     author="Daniel van der Maas",
     author_email="daniel@ellipsis-drive.com",
     description="Package to add Ellipsis Drive layers to folium",
@@ -21,10 +21,7 @@ setuptools.setup(
     packages=find_packages(),
     install_requires=[
     'folium',
-    'folium_vectortilelayer',
-    'json',
-    'requests',
-    'uuid'
+    'folium-vectorgrid',
     ],
     python_requires='>=3.6',
 )
